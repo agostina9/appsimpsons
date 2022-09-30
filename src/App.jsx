@@ -34,7 +34,7 @@ console.log(error);
       <img src={titulosimpsons} className="img-fluid w-100 my-5"></img>
       <br></br>
       <div className="text-center mb-5">
-      <Button variant="warning" >Obtener frase</Button>{' '}
+      <Button variant="warning" onClick={consultarAPI} >Obtener frase</Button>{' '}
 
       </div>
     <Frase personaje={personaje}></Frase>
